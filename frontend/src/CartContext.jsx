@@ -46,7 +46,6 @@ export function CartProvider({ children }) {
     );
 }
 
-// Отключаем предупреждение fast-refresh для экспорта хука
 // eslint-disable-next-line react-refresh/only-export-components
 export function useCart() {
     return useContext(CartContext);
