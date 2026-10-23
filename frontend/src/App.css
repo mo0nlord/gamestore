@@ -1,0 +1,28 @@
+.app-nav {
+    display: flex;
+    gap: 15px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-user-panel {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.nav-user-name {
+    font-size: 14px;
+    color: #38bdf8;
+}
+
+.nav-logout-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.app-divider {
+    border-color: #334155;
+}

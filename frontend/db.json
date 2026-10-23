@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "email": "admin@test.com",
+      "password": "$2a$10$wvJ4/5UwR3v9R14oPtGcXe/Lx.cts5AngmDgE2GJiVTJ5M8fbk6t6",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Клавиатура механическая",
+      "price": 4500,
+      "description": "Компактная клавиатура с подсветкой",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "Беспроводная мышь",
+      "price": 2200,
+      "description": "Эргономичная мышь с оптическим сенсором",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "title": "Коврик для мыши",
+      "price": 800,
+      "description": "Большой коврик с нескользящим основанием",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}

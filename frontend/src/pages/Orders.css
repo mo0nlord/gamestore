@@ -1,0 +1,42 @@
+.orders-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order-card {
+    background: #1e293b;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-date {
+    color: #38bdf8;
+}
+
+.order-status {
+    margin: 6px 0;
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.order-amount {
+    color: #22c55e;
+}
+
+.order-items {
+    padding-left: 20px;
+    margin: 6px 0 0 0;
+}

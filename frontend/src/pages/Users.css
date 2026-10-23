@@ -1,0 +1,25 @@
+.users-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.users-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.user-role-label {
+    color: #38bdf8;
+    font-size: 13px;
+}
